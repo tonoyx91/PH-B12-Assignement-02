@@ -519,7 +519,7 @@ body {
     }
 
     #box3{
-        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/assets/deal-zabo.png');
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('assets/deal-zabo.png');
         height: 20rem;
         width: 100%;
     }
