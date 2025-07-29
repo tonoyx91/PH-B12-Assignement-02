@@ -49,7 +49,6 @@ body{
 .navbar-buttons{
     list-style: none;
     gap: 48px;
-
 }
 
 .navbar-link{
@@ -72,5 +71,14 @@ body{
 
 /* Media Query */
 @media screen and (max-width: 576px) {
-    
+    #nav1, #nav2, #nav3{
+        display: none;
+    }
+    .navbar img{
+        width: 100%;
+    }
+    .navbar{
+        max-width: 90%;
+        align-items: center;
+    }
 }
