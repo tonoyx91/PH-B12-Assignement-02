@@ -58,7 +58,16 @@ body {
     font-size: 1.6rem;
 }
 
-.btn-primary:hover{
+.btn-primary1{
+    background-color: #E95A08;
+    width: 27rem;
+    height: 5rem;
+    color: white;
+    border: none;
+    font-size: 1.6rem;
+}
+
+.btn-primary:hover, .btn-primary1:hover{
     background-color: #65250d;
     color: #FFFFFF;
     transition: background-color 0.3s ease;
@@ -349,7 +358,7 @@ body {
     height: 4.8rem;
     font-size: 1.6rem;
     background-color: white;
-    width: 100%;
+    width: 98%;
     padding-left: 1rem;
     border: none;
 }
@@ -357,6 +366,56 @@ body {
 .colorful-container-item-1{
     width: 70rem;
     height: 5rem;
+}
+
+/* Footer Styles */
+.footer{
+    /* justify-items: center; */
+    margin-bottom: 5rem;
+}
+.footer-container{
+    max-width: 114rem;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-part-1{
+    width: 25%;
+}
+
+.footer-desc{
+    font-size: 2.2rem;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.footer-part-2 ul{
+    list-style: none;
+}
+
+.footer-buttons{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 11rem;
+    row-gap: 3rem;
+}
+
+.footer-items, .footer-icon{
+    cursor: pointer;
+}
+
+.footer-link{
+    text-decoration: none;
+    color: rgba(107, 114, 128, 1);
+    font-weight: 500;
+    font-size: 1.6rem;
+}
+
+
+.footer-part-3{
+    gap: 2.5rem;
+    align-items: center;
+    justify-content: start;
 }
 
 
@@ -480,5 +539,27 @@ body {
     .colorful-part input[type="email"]{
         height: 4.7rem;
         width: 95%;
+    }
+
+    .footer-container{
+        flex-direction: column;
+    }
+
+    .footer-part-1{
+        width: 90%;
+    }
+    .footer-desc{
+        font-size: 3.2rem;
+    }
+    .footer-buttons{
+        grid-template-columns: repeat(1, 1fr);
+        justify-content: start;
+        padding: 0;
+    }
+    .footer-part-2, .footer-part-3{
+        width: 90%;
+    }
+    .footer-link{
+        font-size: 2.6rem;
     }
 }
