@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
 
 
 .noto-serif-font {
@@ -8,4 +10,67 @@
   font-style: normal;
   font-variation-settings:
     "wdth" 100;
+}
+
+
+.inter-font {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* Body Styles */
+body{
+    margin: 0px;
+    background-color: #F5F8FF;
+}
+
+/* Shared Styles */
+.display-flex{
+    display: flex;
+}
+
+
+
+/* header Styles */
+.header{
+    margin-top: 30px;
+}
+
+
+/* Navbar Styles */
+.navbar{
+    justify-content: space-between;
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.navbar-buttons{
+    list-style: none;
+    gap: 48px;
+
+}
+
+.navbar-link{
+    text-decoration: none;
+}
+
+.style1{
+    color: rgba(37, 36, 50, 1);
+    font-weight: 700;
+}
+
+.style2{
+    color: #8987A1;
+}
+
+.style3{
+    color: #000000;
+}
+
+
+/* Media Query */
+@media screen and (max-width: 576px) {
+    
 }
