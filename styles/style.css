@@ -49,6 +49,15 @@ body {
     font-size: 1.6rem;
 }
 
+.btn-primary{
+    background-color: #E95A08;
+    width: 27rem;
+    height: 5rem;
+    color: white;
+    border: none;
+    font-size: 1.6rem;
+}
+
 /* header Styles */
 .header {
     margin-top: 3rem;
@@ -113,9 +122,56 @@ body {
 
 .banner-style {
     color: rgba(0, 0, 0, 0.5);
+    font-size: 2.9rem;
+}
+
+/* Our Plants Styles */
+.our-plants{
+    padding-top: 10rem;
+    max-width: 90%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.our-plants-part-1{
+    margin-bottom: 3rem;
+}
+
+.our-plants-title{
+    font-size: 5rem;
+}
+
+.our-plants-description{
+    max-width: 70%;
+    margin: 0 auto;
+    color: rgba(0, 0, 0, 0.5);
     font-size: 2.2rem;
 }
 
+.our-plants-part-2{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
+    row-gap: 4rem;
+}
+
+.plants-container{
+    
+}
+
+.plant-title{
+    font-weight: 500;
+    font-size: 2.2rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.plant-price{
+    font-weight: 700;
+    font-size: 2.2rem;
+    margin-top: 0;
+    margin-bottom: 1.2rem;
+}
 
 /* Media Query */
 @media screen and (max-width: 576px) {
@@ -156,5 +212,43 @@ body {
 
     .banner-writings{
         margin-inline: 2.7rem;
+    }
+
+    .our-plants{
+        padding-top: 10rem;
+    }
+
+    .our-plants-part-1{
+        margin-bottom: 5rem;
+    }
+
+    .our-plants-title{
+        font-size: 8.1rem;
+        margin-bottom: 1.3rem;
+    }
+
+    .our-plants-description
+    {
+        font-size: 3.9rem;
+    }
+
+    .our-plants-part-2{
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .plant-img{
+        width: 100%;
+    }
+
+    .plant-title{
+        font-size: 3.9rem;
+        margin-top: 2.5rem;
+        margin-bottom: 1.8rem;
+    }
+
+    .plant-price{
+        font-size: 3.9rem;
+        margin-top: 0;
+        margin-bottom: 2rem;
     }
 }
