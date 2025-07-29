@@ -58,6 +58,13 @@ body {
     font-size: 1.6rem;
 }
 
+.btn-primary:hover{
+    background-color: #65250d;
+    color: #FFFFFF;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+}
+
 /* header Styles */
 .header {
     margin-top: 3rem;
@@ -156,10 +163,6 @@ body {
     row-gap: 4rem;
 }
 
-.plants-container{
-    
-}
-
 .plant-title{
     font-weight: 500;
     font-size: 2.2rem;
@@ -176,22 +179,15 @@ body {
 
 /* Plants Lover Styles */
 
-
-.trusted-seller img{
-    width: 100%;
-}
-
 .plants-lover{
     max-width: 114rem;
     margin: 21rem auto;
-    /* margin-top: 21rem; */
 }
 .plants-lover-container{
     max-width: 114rem;
     margin: 0 auto;
     gap: 7rem;
     align-items: center;
-    /* margin-top: -13rem; */
 }
 .plants-lover-img{
     position: relative;
@@ -203,9 +199,7 @@ body {
 .plants-lover-writings{
     width: 50%;
 }
-/* .plants-lover-description{
-    width: 50%;
-} */
+
 .plants-lover-title{
     font-weight: 700;
     font-size: 5rem;
@@ -229,10 +223,6 @@ body {
     width: 250px;
 }
 
-#store{
-    /* position: absolute; */
-}
-
 /* Media Query */
 @media screen and (max-width: 576px) {
     html {
@@ -245,7 +235,8 @@ body {
 
     #nav1,
     #nav2,
-    #nav3 {
+    #nav3,
+    #badge {
         display: none;
     }
 
@@ -310,5 +301,19 @@ body {
         font-size: 3.9rem;
         margin-top: 0;
         margin-bottom: 2rem;
+    }
+
+    .plants-lover-container{
+        flex-direction: column;
+        padding-left: 2rem;
+        padding-right: 2.5rem;
+    }
+
+    .plants-lover-img{
+        width: 100%;
+    }
+
+    .plants-lover-writings{
+        width: 100%;
     }
 }
