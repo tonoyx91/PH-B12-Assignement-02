@@ -139,6 +139,7 @@ body {
 
 .our-plants-title{
     font-size: 5rem;
+    font-weight: 700;
 }
 
 .our-plants-description{
@@ -171,6 +172,65 @@ body {
     font-size: 2.2rem;
     margin-top: 0;
     margin-bottom: 1.2rem;
+}
+
+/* Plants Lover Styles */
+
+
+.trusted-seller img{
+    width: 100%;
+}
+
+.plants-lover{
+    max-width: 114rem;
+    margin: 21rem auto;
+    /* margin-top: 21rem; */
+}
+.plants-lover-container{
+    max-width: 114rem;
+    margin: 0 auto;
+    gap: 7rem;
+    align-items: center;
+    /* margin-top: -13rem; */
+}
+.plants-lover-img{
+    position: relative;
+    width: 50%;
+}
+.plants-lover-img img{
+    max-width: 100%;
+}
+.plants-lover-writings{
+    width: 50%;
+}
+/* .plants-lover-description{
+    width: 50%;
+} */
+.plants-lover-title{
+    font-weight: 700;
+    font-size: 5rem;
+    margin: 0px;
+}
+.plants-lover-description{
+    font-size: 2.2rem;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.trusted-seller{
+    width: 29rem;
+    margin-bottom: -23rem;
+}
+
+#badge{
+    position: absolute;
+    z-index: 10;
+    top:-90px;
+    right: -90px;
+    width: 250px;
+}
+
+#store{
+    /* position: absolute; */
 }
 
 /* Media Query */
