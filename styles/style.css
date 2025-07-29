@@ -312,7 +312,52 @@ body {
     font-size: 1.6rem;
 }
 
-/*  */
+/* Colorful Styles */
+.colorful-part{
+    background-image: url('/assets/news-letter-bg.png');
+    background-repeat: no-repeat;
+    max-width: 100%;
+    background-size: 100%;
+    height: 50rem;
+    margin: 10rem auto;
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.colorful-whole-part-container{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.colorful-part-title{
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 6rem;
+    margin-top: 0;
+}
+
+.colorful-container{
+    justify-content: center;
+    align-items: center;
+    height: 6rem;
+    width: 95rem;
+}
+
+.colorful-part input[type="email"]{
+    height: 4.8rem;
+    font-size: 1.6rem;
+    background-color: white;
+    width: 100%;
+    padding-left: 1rem;
+    border: none;
+}
+
+.colorful-container-item-1{
+    width: 70rem;
+    height: 5rem;
+}
 
 
 /* Media Query */
@@ -418,5 +463,22 @@ body {
         background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/assets/deal-zabo.png');
         height: 20rem;
         width: 100%;
+    }
+
+    .colorful-part{
+        height: 20rem;
+    }
+
+    .colorful-part-title{
+        font-size: 3.5rem;
+    }
+
+    .colorful-container{
+        width: 50rem;
+    }
+
+    .colorful-part input[type="email"]{
+        height: 4.7rem;
+        width: 95%;
     }
 }
