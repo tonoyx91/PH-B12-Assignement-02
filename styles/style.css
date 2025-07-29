@@ -4,81 +4,157 @@
 
 
 .noto-serif-font {
-  font-family: "Noto Serif", serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
+    font-family: "Noto Serif", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
 }
 
 
 .inter-font {
-  font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+html {
+    font-size: 10px;
 }
 
 /* Body Styles */
-body{
+body {
     margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
     background-color: #F5F8FF;
 }
 
 /* Shared Styles */
-.display-flex{
+.display-flex {
     display: flex;
 }
 
+.color1 {
+    color: #000000;
+}
 
+.color2 {
+    color: #E95A08;
+}
+
+.navbar-button-size{
+    font-size: 1.6rem;
+}
 
 /* header Styles */
-.header{
-    margin-top: 30px;
+.header {
+    margin-top: 3rem;
 }
 
 
 /* Navbar Styles */
-.navbar{
+.navbar {
     justify-content: space-between;
-    max-width: 1140px;
+    max-width: 90%;
     margin: 0 auto;
+    align-items: center;
 }
 
-.navbar-buttons{
+.navbar-buttons {
     list-style: none;
-    gap: 48px;
+    gap: 4.8rem;
 }
 
-.navbar-link{
+.navbar-link {
     text-decoration: none;
 }
 
-.style1{
+.style1 {
     color: rgba(37, 36, 50, 1);
     font-weight: 700;
 }
 
-.style2{
+.style2 {
     color: #8987A1;
 }
 
-.style3{
+.style3 {
     color: #000000;
+}
+
+
+/* Banner Styles */
+.banner {
+    max-width: 90%;
+    margin: 0 auto;
+    align-items: center;
+    padding-top: 10rem;
+}
+
+.banner-writings {
+    width: 50%;
+}
+
+.banner-img {
+    width: 50%;
+}
+
+.banner-title {
+    font-weight: 700;
+    font-size: 6.5rem;
+}
+
+.banner img {
+    width: 100%;
+}
+
+.banner-style {
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 2.2rem;
 }
 
 
 /* Media Query */
 @media screen and (max-width: 576px) {
-    #nav1, #nav2, #nav3{
+    html {
+        font-size: 6px;
+    }
+
+    .navbar-button-size{
+        font-size: 2.6rem;
+    }
+
+    #nav1,
+    #nav2,
+    #nav3 {
         display: none;
     }
-    .navbar img{
+
+    .navbar img {
         width: 100%;
     }
-    .navbar{
+
+    .navbar {
         max-width: 90%;
         align-items: center;
+    }
+
+    .banner {
+        max-width: 100%;
+        flex-direction: column-reverse;
+    }
+    .banner-img{
+        width: 100%;
+    }
+
+    .banner-writings{
+        width: 90%;
+    }
+
+    .banner-writings{
+        margin-inline: 2.7rem;
     }
 }
